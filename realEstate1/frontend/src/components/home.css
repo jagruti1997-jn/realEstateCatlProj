@@ -1,0 +1,101 @@
+.homeContainer{
+    margin-top: 10px;
+    width: 1300px;
+    padding: 20px;
+    margin: 0 15px;
+    border-radius: 10px;
+    overflow:hidden;
+    background: rgbs(0,0,0,0.2);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.6);
+}
+
+.id{
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+      font-size: 15px;
+      font-weight: bold;
+      color: grey;
+      border-bottom: 1px solid skyblue;
+}
+.id p span{
+    background-color:skyblue;
+    color: white;
+    margin-left: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.id button{
+    margin: 0%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    box-shadow: 0 12px 25px rgba(124, 192, 184, 0.6);
+    cursor: pointer;
+    
+}
+
+.id2{
+    display: flex;
+   justify-content: space-between;
+}
+.id2 input{
+    margin: 0%;
+    padding: 10px;
+    width: 300px;
+    border-color: skyblue;
+}
+.id2 button{
+    margin: 0%;
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+th {
+    padding: 4px;
+    text-align: left;
+    background-color: skyblue;
+    color: white;
+    /* border: 1px solid rgb(52, 143, 179); */
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+td{
+    padding: 5px;
+    text-align: left;
+    /* border: 1px solid skyblue; */
+}
+
+h4{
+    
+    color: skyblue;
+    border-bottom: 1px solid skyblue;
+    margin: 3px;
+    font-size: 20px;
+}
+
+
+.Addpropertybutton{
+    margin: 0%;
+    font-size: 15px;
+    width: 200px;
+    margin-bottom: 3px;
+    box-shadow: 0 12px 25px rgba(124, 192, 184, 0.6);
+}
+
+.Addpropertybutton :link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+   
+}
+.id2 button:hover{
+    background-color: rgb(54, 143, 178);
+}

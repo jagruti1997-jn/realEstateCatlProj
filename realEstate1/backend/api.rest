@@ -1,0 +1,50 @@
+
+POST http://localhost:8000/signup/register
+Accept: application/json
+Content-Type: application/json
+
+
+{
+   
+    "email":"nagamani@gmail.com",
+  "password":"nagamani1234",
+  "Cpassword":"nagamani1234"
+
+}
+###
+
+POST http://localhost:8000/signin/login
+Accept: application/json
+Content-Type: application/json
+
+{
+   
+  "email":"suvarna@gmail.com",
+  "password":"ammu1234"
+  
+
+}
+###
+
+POST http://localhost:8000/posts/
+Accept: application/json
+Content-Type: application/json
+Authorization: test eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDIxMzY3NTYsInVzZXIiOiI2NTc0N2Q4YmI0NWM0OGE0MDA0NTM2ODciLCJpYXQiOjE3MDIxMzMxNTZ9.deEHYGiTVVWLeDx7WofyASikRq7EVPWUeIn5yo-a-xQ
+{
+   
+    "PropertyType":"janvika",
+  "Negotable": "bahgre"
+  
+
+}
+###
+POST http://localhost:8000/posts/6576b79054ebf8a07df8043a
+Accept: application/json
+Content-Type: application/json
+Authorization: test eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDIxMzY3NTYsInVzZXIiOiI2NTc0N2Q4YmI0NWM0OGE0MDA0NTM2ODciLCJpYXQiOjE3MDIxMzMxNTZ9.deEHYGiTVVWLeDx7WofyASikRq7EVPWUeIn5yo-a-xQ
+
+
+{
+    "Breadth":"30",
+    "TotalArea":"600"
+}

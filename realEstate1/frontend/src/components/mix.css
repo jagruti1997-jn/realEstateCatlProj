@@ -1,0 +1,259 @@
+
+
+
+.loginContainer{
+    margin-top: 0%;
+    width: 100%;
+    /* padding: 10px; */
+    height: 100vh;
+    /* min-height:calc(100vh - 80px); */
+    background-color: #a8daee;
+    padding-top: 50px;
+}
+ .form_data{
+  
+    width: 800px;
+    margin:  auto;
+    padding:30px 10px;
+    box-shadow: 0 0 15px -10px rgb(0, 2, 3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:whitesmoke;
+}
+.form_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_data h1{
+    font-size: 34px;
+    color: #2a4365;
+}
+.form_data p{
+    color: #718096;
+    font-size: 15px;
+    margin-top:9px;
+}
+.form_data form{
+    margin-top: 45px;
+    width: 100%;
+    padding: 10px 50px;
+}
+.form_data form .form_input input{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #d4d0d0;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 14px;
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+
+
+
+
+.form_data form .form_input label{
+    font-weight: 600;
+    font-size: 15px;
+}
+.form_input .two{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.form_data form .form_input input:focus{
+    border:2px solid rgba(66, 153, 225,0.6);
+}
+.form_data form .form_input input::placeholder{
+    color: #8694a8;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+.form_input .showpass{
+    position: absolute;
+    right: 0;
+    top:1px;
+    padding: 7px 10px;
+    margin-right: 5px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2a4365;
+    background-color: #EDF2F7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form .btn{
+    display:block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:#1a365d;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+form .btn:hover{
+    background-color: #97a1b1;
+}
+.form_data form p{
+    text-align: center;
+    margin-top: 20px;
+}
+.form_data form a{
+    text-decoration: none;
+    color:#718096 ;
+    border-bottom: 2px solid #8694a8;
+}
+
+
+
+/*pages css clone*/
+
+.container{
+    margin-top: 30px;
+    max-width: 950px;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    overflow:hidden;
+    background: rgbs(0,0,0,0.2);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.6);
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+/* .input-box .details{
+
+} */
+/* .input-box:nth-child(2n){
+    justify-content: end;
+} */
+ 
+.input-box label{
+    width: 90%;
+    font-weight: bold;
+    margin: 5px 0;
+    color: rgb(84, 79, 79);
+}
+.input-box input,.input-box select{
+    height: 30px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(85, 81, 81);
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    margin-right: 20px;
+    background-color: rgb(140, 209, 219);
+    align-items: center;
+    border: none;
+    color: whitesmoke;
+    
+    
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+button:hover{
+    background-color: rgb(55, 166, 210);
+}
+.button1 button :link{
+    color: whitesmoke;
+    border: none;
+}
+
+.btn :link{
+    border: none;
+    color: whitesmoke;
+}
+
+/* homepage css*/
+
+.navigationbar ul li{
+    list-style-type: none;
+    display: inline;
+    
+    height:50px;
+    
+    width:8%;
+    /* margin-left:50px; */
+   align-items: center;
+   
+  
+    
+} 
+
+.navigationbar ul li:hover{
+    border-radius: 20px;
+    background-color:rgb(84, 159, 188);
+    height: 50px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+     padding-left: 10px;
+    padding-right: 10px; 
+    color: whitesmoke;
+    border: none;
+    font-size: medium;
+    justify-content: center;
+    
+} 
+
+
+.navigationbar  ul li{
+    /* float: left; */
+   /* margin-right: 50px; */
+    padding: 8px;
+    color:rgb(112, 110, 110);
+    
+  
+  } 
+
+  .navigationbar{
+    height: 50px;
+    background-color: whitesmoke;
+    justify-content:space-between;
+  margin-bottom: 20px;
+  padding: 0;
+  
+  }
+  /* .navigationbar  ul:hover{
+    margin: 0;
+    padding-left:10px;
+    padding-right: 10px;
+    list-style:decimal;
+    gap: 70px;
+    list-style: decimal;
+  } */
+
+
+/*sidebar css*/
+.sidebar{
+    height: 860px;
+}
